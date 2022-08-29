@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/GetHigher.png";
-import IMG2 from "../../assets/coding.png";
+import IMG2 from "../../assets/portfolio.png";
 import IMG3 from "../../assets/home.png";
 import IMG4 from "../../assets/dashboard.png";
 
@@ -16,7 +16,7 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "Professional Protfolio w/ Bootstrap & Handlebars",
+    title: "Professional Portfolio w/ Bootstrap & Handlebars",
     github: "https://github.com/anacecyflores1/ProfessionalPortfolio",
     demo: "https://cecy-professional-portfolio.herokuapp.com/home",
   },
