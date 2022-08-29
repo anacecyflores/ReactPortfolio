@@ -6,9 +6,9 @@
 
 .portfolio__item {
   background: var(--color-bg-variant);
-  padding: 1.3rem;
-  border-radius: 2rem;
-  border: 1px solid transparent;
+  padding: 3rem;
+  border-radius: 5rem;
+  border: 15px solid transparent;
   transition: var(--transition);
 }
 
@@ -23,10 +23,10 @@
 }
 
 img {
-  width: 400px;
-  height: 400px;
-  object-fit: contain;
-  background-size: cover;
+  width: 900px;
+  height: 300px;
+  object-fit: fill;
+  background-size: fill;
 }
 
 .portfolio__item h3 {
