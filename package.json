@@ -40,17 +40,17 @@
       "last 1 safari version"
     ]
   },
-  "description": "![GitHub](https://img.shields.io/github/license/anacecyflores1/ReactPortfolio) ![GitHub language count](https://img.shields.io/github/languages/count/anacecyflores1/ReactPortfolio) ![GitHub top language](https://img.shields.io/github/languages/top/anacecyflores1/ReactPortfolio)",
+  "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anacecyflores1/ReactPortfolio.git"
+    "url": ""
   },
   "keywords": [],
   "author": "Ana Cecy Flores",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anacecyflores1/ReactPortfolio/issues"
+    "url": "" 
   },
-  "homepage": "https://github.com/anacecyflores1/ReactPortfolio#readme"
+  "homepage": ""
 }
