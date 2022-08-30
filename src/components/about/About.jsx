@@ -54,7 +54,6 @@ React.js</small>
             </article>
           </div>
           <p>
-           text here
           </p>
 
           <a href="#contact" className="btn btn-primary">
