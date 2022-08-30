@@ -10,13 +10,13 @@ nav {
   bottom: 2rem;
   display: flex;
   gap: 0.8rem;
-  border-radius: 3rem;
+  border-radius: 2rem;
   backdrop-filter: blur(15px);
 }
 
 nav a {
   background: transparent;
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 50%;
   display: flex;
   color: var(--color-light);
