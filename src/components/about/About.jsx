@@ -20,28 +20,27 @@ const About = () => {
 
         <div className="about__content">
           <div className="about__cards">
-            <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>text here</small>
-            </article>
 
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Collaborators</h5>
-              <small>
-               text here
+              <h5> About Me</h5>
+              <small> History Teacher changing careers!
               </small>
             </article>
 
             <article className="about__card">
+              <FaAward className="about__icon" />
+              <h5>Skills</h5>
+              <small>Html, Css, Javascript, Node, MongoDB, REACT, MySQL</small>
+            </article>
+
+            <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>text here</small>
+              <h5>Education</h5>
+              <small>Northwestern Fullstack Bootcamp</small>
             </article>
           </div>
           <p>
-           text here
           </p>
 
           <a href="#contact" className="btn btn-primary">
