@@ -43,7 +43,7 @@
 }
 
 .about__card:hover {
-  background:rgb(149, 145, 145);
+  background:rgb(68, 66, 66);
   border-color: var(--color-primary-variant);
   cursor: default;
 }

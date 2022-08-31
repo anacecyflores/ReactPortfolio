@@ -1,5 +1,6 @@
-
 # ReactPortfolio
+
+[Deployed App Link](https://acf-react-portfolio.herokuapp.com/#)
 
 ![GitHub](https://img.shields.io/github/license/anacecyflores1/ReactPortfolio)
 ![GitHub language count](https://img.shields.io/github/languages/count/anacecyflores1/ReactPortfolio)
@@ -10,7 +11,6 @@
 - [Description](#description)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
-- [Technologies Used](#technologies-used)
 - [Questions](#questions)
 - [License](#license)
 
@@ -29,12 +29,8 @@ npm i
 Start the application/download repo:
 
 ```
-npm start
+npm run dev
 ```
-
-<br>
-<img src="./assets/localhost.gif" alt="Service Worker Screenshot" title="Service Worker"> 
-<br>
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -44,38 +40,33 @@ npm start
 About:
 ```
 
+<br>
+<img src="./src/assets/about.png" alt="About Page" title="About Page"> 
+<br>
+
 ```
 Contact:
 ```
+
+<br>
+<img src="./src/assets/contact.png" alt="Contact Page" title="Contact Page"> 
+<br>
+
 ```
-Header:
+Home Page:
 ```
-```
-Footer:
-```
+
+<br>
+<img src="./src/assets/reacthome.png" alt="Home Page" title="HOme Page"> 
+<br>
+
 ```
 Portfolio:
 ```
-```
-Resume:
-```
-
-**[⬆ back to top](#table-of-contents)**
-
-```
-Offline on Downloaded App:
-```
 
 <br>
-<img src="./assets/jatedownload.png" alt="Downloaded APP" title="Download">
-
+<img src="./src/assets/reactportfolio.png" alt="Portfolio Page" title="Portfolio Page"> 
 <br>
-
-**[⬆ back to top](#table-of-contents)**
-
-## Technologies Used
-
-
 
 **[⬆ back to top](#table-of-contents)**
 
