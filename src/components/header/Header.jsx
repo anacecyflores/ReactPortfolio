@@ -8,17 +8,18 @@ const Header = () => {
   return (
     <header>
       <div className="container header_container">
-        <h1>Ana Cecy Flores</h1> 
+        <h1>Ana Cecy Flores
+          </h1> 
+        
         <div className="me">
           <img src={ME} alt="ME" />
-          <h1> Fullstack Web Developer</h1>
+          <h1> Fullstack Web Developer <HeaderSocial /></h1>
           <CTA />
         </div>
         {/* <a href="#contact" className="scroll__down">
           Scroll Down
         </a> */}
       </div>
-          <HeaderSocial />
     </header>
   );
 };

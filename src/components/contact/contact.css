@@ -23,9 +23,9 @@
 }
 
 .contact__option:hover {
-  background: rgb(149, 145, 145);
-    border-color: var(--color-primary-variant);
-    cursor: default;
+  background:rgb(149, 145, 145);
+  border-color: var(--color-primary-variant);
+  cursor: default;
 }
 
 .contact__option-icon {

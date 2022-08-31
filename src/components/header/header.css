@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 1rem;
+  padding-top: 3rem;
   overflow: hidden;
 }
 
@@ -13,30 +13,25 @@ header {
 /* CALL TO ACTION BUTTONS */
 
 .cta {
-  margin-top: .1rem;
+  margin-top: 1rem;
   display: flex;
-  gap: 3rem;
+  gap: 4rem;
   justify-content: center;
 }
 
 /* HEADER SOCIALS */
 
 .header__socials {
+  align-items:center;
+  border-radius: 3rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.8rem;
-  position: absolute;
-  left: 0;
-  bottom: 3rem;
-  /* fixed flush against side */
-  margin-left: 3rem;
+  justify-content: center;
+  gap: 4rem;
 }
 
 .header__socials::after {
-  content: "";
-  width: 1px;
-  height: 10rem;
+  width: 100px;
+  height: 100px;
   background: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(15px);
   border-radius: 3rem;
@@ -48,11 +43,11 @@ header {
 .me {
   /* background: var(--color-primary); */
   width: 35rem;
-  height: 30rem;
+  height: 35rem;
   position: absolute;
   left: calc(40% - 10rem);
   margin-top:.02rem;
-  border-radius: 5rem 5rem 0 0;
+  border-radius: 10rem 10rem 0 0;
   justify-content: center;
   /* overflow: hidden; */
   /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
@@ -66,7 +61,7 @@ header {
   bottom: 5rem;
   transform: rotate(90deg);
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 /*  MEDIA QUERIES - TABLETS  */
