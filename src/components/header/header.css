@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 5rem;
+  padding-top: 1rem;
   overflow: hidden;
 }
 
@@ -13,9 +13,9 @@ header {
 /* CALL TO ACTION BUTTONS */
 
 .cta {
-  margin-top: .2rem;
+  margin-top: .1rem;
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
   justify-content: center;
 }
 
@@ -30,26 +30,30 @@ header {
   left: 0;
   bottom: 3rem;
   /* fixed flush against side */
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 
 .header__socials::after {
   content: "";
   width: 1px;
-  height: 2rem;
-  background: var(--color-primary);
+  height: 10rem;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(15px);
+  border-radius: 3rem;
+  text-align: center;
 }
 
 /* ME */
 
 .me {
   /* background: var(--color-primary); */
-  width: 26rem;
-  /* height: 30rem; */
+  width: 35rem;
+  height: 30rem;
   position: absolute;
-  left: calc(48% - 11rem);
-  margin-top: 2rem;
-  border-radius: 10rem 10rem 0 0;
+  left: calc(40% - 10rem);
+  margin-top:.02rem;
+  border-radius: 5rem 5rem 0 0;
+  justify-content: center;
   /* overflow: hidden; */
   /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
 }

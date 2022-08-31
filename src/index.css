@@ -88,13 +88,21 @@ h5 {
 
 h1 {
   background: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(15px);
-  border-radius: 3rem;
+  /* align-content: center; */
+  backdrop-filter: blur(8px);
+  border-radius: 1rem;
   text-align: center;
+  width: 400px;
+  padding: .2rem;
+  text-align: center;
+  transition: var(--transition);
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin-left: 6rem;
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 
 section > h2,

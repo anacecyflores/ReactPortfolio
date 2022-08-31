@@ -8,19 +8,17 @@ const Header = () => {
   return (
     <header>
       <div className="container header_container">
-        {/* <h5>Hi,My name is</h5> */}
-        <h1>Ana Cecy Flores</h1>
-        <h2 className="text-light">Fullstack Developer</h2>
-        <CTA />
-        <HeaderSocial />
+        <h1>Ana Cecy Flores</h1> 
         <div className="me">
           <img src={ME} alt="ME" />
+          <h1> Fullstack Web Developer</h1>
+          <CTA />
         </div>
-
         {/* <a href="#contact" className="scroll__down">
           Scroll Down
         </a> */}
       </div>
+          <HeaderSocial />
     </header>
   );
 };

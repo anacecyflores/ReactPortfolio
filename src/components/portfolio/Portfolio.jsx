@@ -40,7 +40,7 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       <h5> </h5>
-      <h2>Professional Portfolio</h2>
+      <h1>Professional Portfolio</h1> 
 
       <div className="container portfolio__container">
         {data.map(({ id, image, title, github, demo }) => {
