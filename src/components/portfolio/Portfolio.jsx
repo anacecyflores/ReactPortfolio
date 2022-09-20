@@ -1,9 +1,10 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/GetHigher.png";
-import IMG2 from "../../assets/portfolio.png";
+import IMG2 from "../../assets/search.png";
 import IMG3 from "../../assets/home.png";
 import IMG4 from "../../assets/dashboard.png";
+import IMG5 from "../../assets/portfolio.png";
 
 const data = [
   {
@@ -16,9 +17,9 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "Professional Portfolio w/ Bootstrap & Handlebars",
-    github: "https://github.com/anacecyflores1/ProfessionalPortfolio",
-    demo: "https://cecy-professional-portfolio.herokuapp.com/home",
+    title: "World View",
+    github: "https://github.com/anacecyflores1/WorldView",
+    demo: "https://my-world-view.herokuapp.com/",
   },
   {
     id: 3,
@@ -33,6 +34,13 @@ const data = [
     title: "Weather Dashboard",
     github: "https://github.com/anacecyflores1/WeatherDashboard",
     demo: "https://anacecyflores1.github.io/WeatherDashboard/",
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: "Professional Portfolio w/ Bootstrap & Handlebars",
+    github: "https://github.com/anacecyflores1/ProfessionalPortfolio",
+    demo: "https://cecy-professional-portfolio.herokuapp.com/home",
   },
 ];
 
